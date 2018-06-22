@@ -2,5 +2,6 @@
 
 
 def call(args) {
-	docker build -t jenkins-example:latest .
+	#docker build -t jenkins-example:latest .
+	echo "test"
 }
