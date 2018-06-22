@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
 def call() {
-  echo "Build Docker Image"
+  app = docker.build("welterk/jenkins-example-app")
 }
