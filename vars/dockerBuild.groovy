@@ -1,4 +1,5 @@
+#!/usr/bin/env groovy
+
 def call() {
-	#docker build -t jenkins-example:latest .
-	echo "test"
+  echo "Build Docker Image"
 }
